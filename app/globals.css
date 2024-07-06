@@ -76,6 +76,7 @@
   button {
     @apply active:outline-none;
   }
+
 }
 
 @layer utilities {
