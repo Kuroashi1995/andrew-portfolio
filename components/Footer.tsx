@@ -16,7 +16,8 @@ function Footer() {
       </div>
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Let's put <span className="text-purple">your</span> ideas into motion
+          Let&apos;s put <span className="text-purple">your</span> ideas into
+          motion
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me and let&apos;s discuss how can I help you achieve your
