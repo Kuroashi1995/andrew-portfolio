@@ -12,7 +12,7 @@ const RecentProjects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="h-[25rem] flex items-center justify-center sm:w-[80vw] md:w-[80vw] lg:w-[80vw] xl:w-[30vw] 2xl:w-[30vw] sm:my-10"
+            className="h-[30rem] md:h-[25rem] flex items-center justify-center sm:w-[80vw] md:w-[80vw] lg:w-[80vw] xl:w-[30vw] 2xl:w-[30vw] sm:my-12"
           >
             <FormattedCard {...project} />
           </div>
