@@ -41,12 +41,14 @@ function Footer() {
               key={profile.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 border border-b-black-300 rounded-lg"
             >
-              <img
-                src={profile.img}
-                alt={profile.id.toString()}
-                width={20}
-                height={20}
-              />
+              <a href={profile.link} target="_blank">
+                <img
+                  src={profile.img}
+                  alt={profile.id.toString()}
+                  width={20}
+                  height={20}
+                />
+              </a>
             </div>
           ))}
         </div>
